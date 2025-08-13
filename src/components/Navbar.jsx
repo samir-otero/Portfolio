@@ -5,7 +5,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const [activeSection, setActiveSection] = useState("Home");
-    
+
     const navItems = [
         { href: "#Home", label: "Home" },
         { href: "#About", label: "About" },
@@ -29,8 +29,8 @@ const Navbar = () => {
             }).filter(Boolean);
 
             const currentPosition = window.scrollY;
-            const active = sections.find(section => 
-                currentPosition >= section.offset && 
+            const active = sections.find(section =>
+                currentPosition >= section.offset &&
                 currentPosition < section.offset + section.height
             );
 
@@ -84,10 +84,10 @@ const Navbar = () => {
                             onClick={(e) => scrollToSection(e, "#Home")}
                             className="text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#6366f1] bg-clip-text text-transparent"
                         >
-                            Ekizr
+                            Samir
                         </a>
                     </div>
-        
+
                     {/* Desktop Navigation */}
                     <div className="hidden md:block">
                         <div className="ml-8 flex items-center space-x-8">
@@ -118,7 +118,7 @@ const Navbar = () => {
                             ))}
                         </div>
                     </div>
-        
+
                     {/* Mobile Menu Button */}
                     <div className="md:hidden">
                         <button
@@ -136,7 +136,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-        
+
             {/* Mobile Menu */}
             <div
                 className={`md:hidden transition-all duration-300 ease-in-out ${

@@ -2,11 +2,11 @@
 
 Hello everyone\! 👋
 
-Let me introduce myself, I'm **Eki Zulfar Rachman**. On this occasion, I'd like to share the portfolio website project that I've developed.
+Let me introduce myself, I'm **Samir Otero**. On this occasion, I'd like to share the portfolio website project that I've developed.
 
 ## 🚀 Live Demo
 
-**Website Link:** [https://www.eki.my.id/](https://www.eki.my.id/)
+**Website Link:** [https://www.link-placeholder/](https://www.link-placeholder/)
 
 ## 🛠️ Tech Stack
 
@@ -35,8 +35,8 @@ Follow these steps to run the project locally:
 ### 1\. Clone the Repository
 
 ```bash
-git clone https://github.com/EkiZR/Portofolio_V5.git
-cd Portofolio_V5
+git clone https://github.com/samir-otero/Portfolio.git
+cd Portfolio
 ```
 
 ### 2\. Install Dependencies
@@ -160,23 +160,23 @@ ON storage.objects FOR SELECT TO public USING (bucket_id = 'profile-images');
 -- ---- EXAMPLE DATA INSERTION ----
 
 -- Insert one example project
-INSERT INTO public.projects ("Title", "Description", "Img", "Link", "Github", "Features", "TechStack") 
+INSERT INTO public.projects ("Title", "Description", "Img", "Link", "Github", "Features", "TechStack")
 VALUES (
-    'Example Project Title', 
-    'A simple description for this example project, explaining its main purpose and goals.', 
-    'REPLACE_WITH_YOUR_PROJECT_IMAGE_URL.png', 
-    'REPLACE_WITH_YOUR_LIVE_DEMO_URL.com', 
-    'REPLACE_WITH_YOUR_GITHUB_REPO_URL.com', 
-    '["Main Feature A", "Core Function B", "Key Ability C"]', 
+    'Example Project Title',
+    'A simple description for this example project, explaining its main purpose and goals.',
+    'REPLACE_WITH_YOUR_PROJECT_IMAGE_URL.png',
+    'REPLACE_WITH_YOUR_LIVE_DEMO_URL.com',
+    'REPLACE_WITH_YOUR_GITHUB_REPO_URL.com',
+    '["Main Feature A", "Core Function B", "Key Ability C"]',
     '["React", "Supabase", "Tailwind CSS"]'
 );
 
 -- Insert one example certificate
-INSERT INTO public.certificates ("Img") 
+INSERT INTO public.certificates ("Img")
 VALUES ('REPLACE_WITH_YOUR_CERTIFICATE_IMAGE_URL.png');
 
 -- Insert one example comment
-INSERT INTO public.portfolio_comments (content, user_name) 
+INSERT INTO public.portfolio_comments (content, user_name)
 VALUES ('Created By Eki Zulfar Rachman', 'ekizr');
 
 ```
@@ -239,8 +239,8 @@ If you have any questions or need help with the setup, feel free to reach out\!
 
 **Eki Zulfar Rachman**
 
-  - Website: [https://www.eki.my.id/](https://www.eki.my.id/)
-  - GitHub: [EkiZR](https://github.com/EkiZR)
+  - Website: [https://www.link-placeholder/](https://www.link-placeholder/)
+  - GitHub: [Samir](https://github.com/Esamir-otero)
 
 -----
 
