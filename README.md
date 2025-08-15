@@ -4,9 +4,17 @@ Hello everyone\! 👋
 
 Let me introduce myself, I'm **Samir Otero**. On this occasion, I'd like to share the portfolio website project that I've developed.
 
-## 🚀 Live Demo
+## Setup Instructions
 
-**Website Link:** [https://www.link-placeholder/](https://www.link-placeholder/)
+1. Build the Docker image:
+   ```bash
+   docker build -t otero_samir_coding_assignment14 .
+
+2. Run the container:
+    ```bash
+    docker run -p 5575:5575 --name otero_samir_coding_assignment14 otero_samir_coding_assignment14
+
+3. Access the component library at: http://localhost:8083
 
 ## 🛠️ Tech Stack
 
